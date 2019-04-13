@@ -13,10 +13,27 @@ Digital acknowledgement: *PUT YOUR NAME HERE*
 ### Part 1 (90 Pts)
 
 *Put your code here as well as in main.c*
-```c
-printf("your code here");
-```
+#include <stdio.h>
+
+int main(){
+	
+	int a = 0x1ceb00da;
+	int b = 0xfeedface;
+
+	printf("a = %d", a);
+	printf("b = %d", b);
+
+	a ^= b;
+	b ^= a;
+	a ^= b;
+
+	printf("a = %d", a);
+	printf("b = %d", b);
+
+	return 0;
+
+}
 
 ### Part 2 (10 Pts)
 
-*Replace this text with your repsonse to our prompt for part 2!*
+Assigns the value 0x1ceb00da to variable a and the value 0xfeedface into another variable b. It switches the values of the variables with the C bitwise excluse OR and assignment operator ^=.
