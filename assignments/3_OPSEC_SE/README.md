@@ -21,6 +21,7 @@ Write up a pretext that you would use to social engineer this information out of
 ### Part 2
 
 Elizabeth Moffet has recently discovered that 1337Bank's web server has been broken into by the crafty CMSC389R ethical hackers. After reading your published report, she has reached out to you to seek guidance in how she can repair some of the vulnerabilities that you have discovered.
+
 Choose 3 specific vulnerabilities from homework 2 that you have identified (ie. exposed ports, weak passwords, etc.) and write a brief summary of some suggestions you can provide Elizabeth for the 1337Bank web server and admin server. Be as thorough as possible in your answer, use specific examples and citing online research into security techniques that could be applied to the servers (ie. firewall, IDS/IPS, password managers, etc.).
 
 ### Format
