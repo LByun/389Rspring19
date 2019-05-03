@@ -18,7 +18,7 @@ CMSC389R-{m3ss@g3_!n_A_b0ttl3}
 
 
 ### Part 2 (30 Pts)
-![ecb[(ecb.bmp)
+![ecb](ecb.bmp)
 
 ![cbc](cbc.bmp) 
 
