@@ -27,17 +27,17 @@ Level 2:
 Googled ```html onerror``` attribute. Entered ```<img src = "nothing.jpg" onerror = alert("Hello")>``` into the message box and posted. Cannot load the img so it executes the javascript.
 
 Level 3: 
-Looked at the source code. Broke the quotes in the <img> tag so it would read ```<img src='/static/level3/cloud3'.jpg' />``` instead of ```<img src='/static/level3/cloud3.jpg' />``` like they wanted. Used the onerror attribute from the previous to make the <img> tag execute javascript. 
+Looked at the source code. Broke the quotes in the img tag so it would read ```<img src='/static/level3/cloud3'.jpg' />``` instead of ```<img src='/static/level3/cloud3.jpg' />``` like they wanted. Used the onerror attribute from the previous to make the img tag execute javascript. 
 Entered ```' onerror = 'alert("Heelo")'``` into the URL.  ```https://xss-game.appspot.com/level3/frame#3' onerror = 'alert("Heelo")'```	
 
 Level 4: 
-Look at the hints. Saw that the startTimer function was being called from <img> tag. Tried to casue an error in the <img> tag so it would execute onerror
+Look at the hints. Saw that the startTimer function was being called from img tag. Tried to casue an error in the img tag so it would execute onerror
 
 ```'); onerror = alert('hello```
 
 Level 5: 
 On signup page ```https://xss-game.appspot.com/level5/frame/signup?next=confirm``` next is set to confirm. 
-In signup.html next is used in the <a href>. You can execute Javascript in <a href> by using <a href="javascript:alert('Hello');">.
+In signup.html next is used in the a href. You can execute Javascript in a href by using ```<a href="javascript:alert('Hello');">```
 
 Go to the URL ```https://xss-game.appspot.com/level5/frame/signup?next=javascript:alert('Hello')``` and click next
 
